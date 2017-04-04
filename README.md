@@ -1,6 +1,6 @@
 # NGINX FROM SOURCE INSTALLER
 
-Make sure you backup your nginx configuration files and have NGINX dependencies installed, if you already installed from source you may script to step 7.
+Make sure you backup your nginx configuration files and have NGINX dependencies installed, if you already installed from source you may skip to step 7.
 
 1) Download NGINX Signing Key
 ```
