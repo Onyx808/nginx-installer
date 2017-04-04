@@ -39,7 +39,7 @@ su -u root
 ```
 cd nginx-installer
 ```
-10) Run the script and enter the nginx version you want to install or upgrade to, example 1.11.13
+10) Run the script and when asked enter the nginx version you want to install or upgrade to, example 1.11.13
 ```
 ./nginx.sh
 ```
