@@ -43,6 +43,10 @@ cd nginx-installer
 ```
 ./nginx.sh
 ```
+11) Add the init script, follow the steps from the url below
+```
+https://github.com/Onyx808/nginx-init-script
+```
 
 Disclaimer
 ==========
