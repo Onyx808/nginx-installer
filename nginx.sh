@@ -28,7 +28,7 @@ mv naxsi nginx/naxsi
 git clone https://github.com/FRiCKLE/ngx_cache_purge.git
 mv ngx_cache_purge nginx/ngx_cache_purge
 cd nginx/
-./configure --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-debug --with-pcre --user=www-data --group=www-data --with-http_ssl_module --add-module=naxsi/naxsi_src --add-module=ngx_cache_purge;
+./configure --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-debug --with-pcre --user=www-data --group=www-data --with-http_ssl_module --with-http_v2_module --add-module=naxsi/naxsi_src --add-module=ngx_cache_purge;
 make && make install;
 echo "============================================"
 echo "Installation Complete!"
